@@ -11,7 +11,6 @@ const FurnitureContainer = () => {
     <div className='furnitureContainer'>
         <h1 className='title'> Popular </h1>
         <div className='furniture-items'>
-
             {
                 furnitures?.map((furniture, index) => {
 

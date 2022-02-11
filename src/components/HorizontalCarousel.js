@@ -1,8 +1,9 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 
 import "./HorizontalCarousel.css";
 
 const HorizontalCarousel = () => {
+
   return (
     <div className='horizontalCarousel'>
 
@@ -23,7 +24,7 @@ const HorizontalCarousel = () => {
         </div>
 
         {/* TODO -> navigation buttons */}
-        <div className='carousel-btn-container navigation'>
+        <div className='carousel-btn-container' id='navigation-container'>
             <div id='btn-1'></div>
             <div className='btn'></div>
             <div className='btn'></div>
