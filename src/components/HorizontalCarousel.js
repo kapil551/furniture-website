@@ -23,8 +23,10 @@ const HorizontalCarousel = () => {
         </div>
 
         {/* TODO -> navigation buttons */}
-        <div className='carousel-btn-container navigation'>
-
+        <div className='carousel-btn-container'>
+            <div id='btn-1'></div>
+            <div className='btn'></div>
+            <div className='btn'></div>
         </div>
     </div>
   )

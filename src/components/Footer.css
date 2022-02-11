@@ -1,5 +1,5 @@
 .footer {
-    border: 1px solid red;
+    /* border: 1px solid red; */
 
     position: fixed;
     bottom: 0;
@@ -9,6 +9,8 @@
     display: flex;
     align-items: center;
     justify-content: space-evenly;
+
+    box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
 }
 
 .footer-icons {

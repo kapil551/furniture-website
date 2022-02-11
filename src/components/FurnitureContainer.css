@@ -11,7 +11,7 @@ scrollbar-width: none;  /* Firefox */
 
 .furnitureContainer {
 
-    border: 1px solid green;
+    /* border: 1px solid green; */
 
     height: 32rem;
     width: 100%;
@@ -21,7 +21,7 @@ scrollbar-width: none;  /* Firefox */
 
 .title {
     margin-bottom: 3rem;
-    font-size: 1.8rem;
+    font-size: 1.6rem;
     margin-top: 1rem;
     margin-left: 1rem;
 }
@@ -32,7 +32,7 @@ scrollbar-width: none;  /* Firefox */
     column-gap: 10%;
     row-gap: 7%;
 
-    border: 1px solid yellow;
+    /* border: 1px solid yellow; */
 
     width: 95%;
     margin: auto;
@@ -98,7 +98,7 @@ scrollbar-width: none;  /* Firefox */
     width: 100%;
 
     text-align: center;
-    border: 1px solid green;
+    /* border: 1px solid green; */
    
     line-height: 1.2rem;
     font-weight: 600;
