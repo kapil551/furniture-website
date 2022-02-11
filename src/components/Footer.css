@@ -11,6 +11,9 @@
     justify-content: space-evenly;
 
     box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+    background-color: white;
+
+    z-index: 1;
 }
 
 .footer-icons {

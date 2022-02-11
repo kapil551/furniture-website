@@ -12,8 +12,7 @@ scrollbar-width: none;  /* Firefox */
 .furnitureContainer {
 
     /* border: 1px solid green; */
-
-    height: 25rem;
+    
     width: 100%;
 
     overflow-y: scroll;
