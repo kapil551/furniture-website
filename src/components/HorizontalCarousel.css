@@ -91,17 +91,15 @@ scrollbar-width: none;  /* Firefox */
 
 .carousel-btn-container {
     
-    border: 1px solid red;
+    /* border: 1px solid red; */
     margin: auto;
     margin-top: 1rem;
-    height: 0.6rem;
-    width: 20%;
+    height: 1rem;
+    width: 6rem;
 
     display: flex;
     align-items: center;
     justify-content: space-evenly;
-
-
 }
 
 #btn-1 {
@@ -118,13 +116,4 @@ scrollbar-width: none;  /* Firefox */
     background-color: #b9b9bb;
 
     border-radius: 0.5rem;
-}
-
-#navigation-container {
-    /* overflow-y: hidden; */
-    /* overflow-x: scroll; */
-    /* z-index: 1; */
-
-
-
 }
