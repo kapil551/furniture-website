@@ -1,0 +1,15 @@
+.horizontalCarousel {
+
+    border: 1px solid red;
+
+    position: absolute;
+    width: 940px;
+    height: 177px;
+    left: 24px;
+    top: 55px;
+
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+}
