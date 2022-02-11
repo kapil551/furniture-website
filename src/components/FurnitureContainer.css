@@ -1,6 +1,110 @@
+/* Hide scrollbar for Chrome, Safari and Opera */
+.furnitureContainer::-webkit-scrollbar {
+    display: none;
+}
+  
+/* Hide scrollbar for IE, Edge and Firefox */
+.furnitureContainer {
+-ms-overflow-style: none;  /* IE and Edge */
+scrollbar-width: none;  /* Firefox */
+}
+
 .furnitureContainer {
 
     border: 1px solid green;
+
+    height: 32rem;
+    width: 100%;
+
+    overflow-y: scroll;
+}
+
+.title {
+    margin-bottom: 3rem;
+    font-size: 1.8rem;
+    margin-top: 1rem;
+    margin-left: 1rem;
+}
+
+.furniture-items {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 10%;
+    row-gap: 7%;
+
+    border: 1px solid yellow;
+
+    width: 95%;
+    margin: auto;
+    padding: 0.5rem 1rem;
+}
+
+.furniture-div {
+    height: 10rem; 
+    width: 9rem;
+    background-color: #F4F4F8;
+    position: relative; 
+
+    border-radius: 0.5rem;
+}
+
+.furniture-image {
+
+    /* border: 1px solid blue; */
     position: absolute;
-    top: 260px;
+    height: 7rem;
+    width: 7rem;
+    object-fit: cover;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-image: url('https://w7.pngwing.com/pngs/175/577/png-transparent-eames-lounge-chair-table-wing-chair-fredericia-furniture-table-angle-kitchen-furniture.png');
+
+    left: 11%;
+    top: -2.75rem;
+}
+
+#sofa {
+    background-image: url('../images/furnitures/sofa.png');
+    left: 11%;
+    top: -2.75rem;
+}
+
+#lamp {
+    background-image: url('../images/furnitures/tableLamp.png');
+    height: 5rem;
+    width: 5rem;
+    left: 23%;
+    top: -2.4rem;
+}
+
+#stool {
+    background-image: url('../images/furnitures/stool.png');
+    left: 14%;
+    top: -1.8rem;
+
+    height: 7rem;
+    width: 6rem;
+
+}
+
+#shaped-sofa {
+    background-image: url('../images/furnitures/shapedSofa.jpg');
+}
+
+.furniture-description {
+    position: absolute;
+    top: 55%;
+    width: 100%;
+
+    text-align: center;
+    border: 1px solid green;
+   
+    line-height: 1.2rem;
+    font-weight: 600;
+
+}
+
+.furniture-price {
+    color: #F7C390;
 }

@@ -1,8 +1,36 @@
 .footer {
     border: 1px solid red;
-    height: 89px;
-    width: 375px;
+
     position: fixed;
     bottom: 0;
+    height: 8%;
+    width: 100%;
 
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.footer-icons {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 1.5rem;
+    width: 1.5rem;
+}
+
+#home {
+    background-image: url('../images/icons/home.png');
+}
+
+#furniture {
+    background-image: url('../images/icons/furniture.png');
+}
+
+#cart {
+    background-image: url('../images/icons/cart.png');
+}
+
+#profile {
+    background-image: url('../images/icons/profile.png');
 }
