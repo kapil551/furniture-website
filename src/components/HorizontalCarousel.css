@@ -42,10 +42,10 @@ scrollbar-width: none;  /* Firefox */
     scroll-snap-align: start;
     flex-shrink: 0;
     width: 17rem;
-    height: 9rem;
+    height: 10rem;
     margin-right: 2rem;
     border-radius: 0.5rem;
-    background-image: url('../images/carousel/image1.png');
+    /* background-image: url('../images/carousel/image1.png'); */
     transform-origin: center center;
     transform: scale(1);
     transition: transform 0.5s;
@@ -74,7 +74,19 @@ scrollbar-width: none;  /* Firefox */
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+    /* background-image: url('../images/carousel/image1.png'); */
+}
+
+#image-1 {
     background-image: url('../images/carousel/image1.png');
+}
+
+#image-2 {
+    background-image: url('../images/carousel/image2.png');
+}
+
+#image-3 {
+    background-image: url('../images/carousel/image3.png');
 }
 
 .carousel-btn-container {
