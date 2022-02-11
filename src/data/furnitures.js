@@ -1,4 +1,4 @@
-export default [
+const furnitures = [
     {
         id: 'lamp',
         title: 'Wooden table lamp',
@@ -50,3 +50,5 @@ export default [
         price: '$2899'
     },
 ]
+
+export default furnitures;
